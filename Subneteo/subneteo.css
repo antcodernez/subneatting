@@ -16,6 +16,10 @@ html
     --neon-shadow-text: rgb(255, 1, 174);
     --card-background: rgba(15, 1, 26, 0.963);
 }
+body
+    {
+        background-image: url(../Images/background-loading.svg);
+    }
 header h1 {
     overflow: hidden;
     animation-duration: 3s;

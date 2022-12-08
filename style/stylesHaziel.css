@@ -18,7 +18,7 @@
 body {
     padding-top: 9em;
     color: #fff;
-    background-image: url(/Images/background-loading.svg);
+    background-image: url(../Images/background-loading.svg);
     background-size: cover;
     font-family: 'Mukta-regular', sans-serif;
     text-align: center;
