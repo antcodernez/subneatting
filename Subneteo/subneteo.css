@@ -140,25 +140,26 @@ main .main-view-right p
         font-weight: bold;
     }
 
-@media (min-width: 600px) {
-    body 
+@media (min-width: 600px) 
+    {
+        body
         {
-            background-image: url(../Images/background-mobile-loading.svg);
+            background-image: url(../Images/background-loading.svg);
         }
-    .container {
-        display: flex;
-        justify-content: center;
-        margin: 4em 4em 4em 4em;
-    }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 4em 4em 4em 4em;
+        }
 
-    main .container .main-view-left {
-        order: 1;
-    }
+        main .container .main-view-left {
+            order: 1;
+        }
 
-    main .container .main-view-right {
-        order: 2;
+        main .container .main-view-right {
+            order: 2;
+        }
     }
-}
 
 @media (min-width: 800px) 
     {
