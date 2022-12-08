@@ -209,9 +209,10 @@ main p, b {
     /* Responsive design for navbar */
 
     /* Responsive design for main */
-    body {
-        background-image: url(/Images/background-mobile-loading.svg);
-    }
+    body 
+        {
+            background-image: url(../Images/background-mobile-loading.svg);
+        }
 
     main p, b {
         font-size: 14px;
