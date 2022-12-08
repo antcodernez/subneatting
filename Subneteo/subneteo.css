@@ -139,6 +139,14 @@ main .main-view-right p
         margin-top: 15px;
         font-weight: bold;
     }
+@media screen and (max-width:875px) {
+        /* Responsive design for navbar */
+    
+        /* Responsive design for main */
+    body 
+        {
+            background-image: url(../Images/background-mobile-loading.svg);
+        }
 @media (min-width: 600px) {
     .container {
         display: flex;
